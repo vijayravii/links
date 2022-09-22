@@ -5,7 +5,7 @@
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta content="utf-8" http-equiv="encoding">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-<link rel="icon" href="broken-link.png" alt="segoe ui">
+<link rel="icon" href="./assets/broken-link.png" alt="segoe ui">
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,600;0,900;1,300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel = "stylesheet" href="style.css">
@@ -13,8 +13,18 @@
 </head>
 <body>
     <p class="heading">Vijay Ravi - Rtwo Healthcare Solutions, Bangalore, 560078.</p>
-    <a class="link link1" href="https://drive.google.com/drive/folders/1Nw9dVLiZieXqtp3ZC-lMsPhbXm0c4Rs2">Outbox</a>
-    <a class="link link2" href="https://drive.google.com/drive/folders/1Y_3NaEK4B2EIxkannDem-VQsGYkRtBUu">Dropbox</a>
+    <div class="container">
+        <div class="c1">
+        <a class="link link1" href="https://drive.google.com/drive/folders/1Nw9dVLiZieXqtp3ZC-lMsPhbXm0c4Rs2">
+		<img src="./assets/google-drive-old.png" alt="google" width="15px">
+		Outbox</a>
+        </div>
+		<div class="c2">
+        <a class="link link2" href="https://drive.google.com/drive/folders/1Y_3NaEK4B2EIxkannDem-VQsGYkRtBUu">
+		<img src="./assets/google-drive-old.png" alt="google" width="15px">
+		Dropbox</a>
+		</div>
+</div>
 </body>
 </html>
 <style>
@@ -37,4 +47,8 @@
         color: white;
         background-color: black;
     }
+	.container {
+		display: flex;
+		flex-direction : row;
+	}
 </style>
